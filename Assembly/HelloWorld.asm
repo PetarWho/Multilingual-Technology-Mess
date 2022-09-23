@@ -1,4 +1,4 @@
-hello-DOS.asm - single-segment, 16-bit "hello world" program
+;hello-DOS.asm - single-segment, 16-bit "hello world" program
 ;
 ; assemble with "nasm -f bin -o hi.com hello-DOS.asm"
 
