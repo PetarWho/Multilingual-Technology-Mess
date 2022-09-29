@@ -12,7 +12,7 @@ message = input('\nEnter message to send...\n')
 
 
 sent_from = my_email
-to = [recipient_mail, "royvoytheboy@gmail.com"]
+to = [recipient_mail, "zyra@mail.bg"]
 subject = 'Lorem ipsum dolor sit amet'
 body = message
 
