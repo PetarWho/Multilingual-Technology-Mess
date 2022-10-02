@@ -72,8 +72,7 @@ async def side4(p4):
 
 
 async def run():
-    await asyncio.sleep(3)
-
+    await asyncio.sleep(2)
     while not keyboard.is_pressed('q'):
         p1 = pyautogui.pixel(1222, 420)
         p2 = pyautogui.pixel(1338, 420)
