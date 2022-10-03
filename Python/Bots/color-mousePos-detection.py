@@ -8,4 +8,3 @@ while True:
         r, g, b = pyautogui.pixel(x, y)
 
         print(f'{x}, {y} - {r}, {g}, {b}')
-

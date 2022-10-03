@@ -1,16 +1,20 @@
 from pyautogui import *
 import pyautogui
-import time
 import keyboard
-import random
 import win32api
 import win32con
 import asyncio
 
-# Point(1183, 420)
-# Point(1283, 420)
-# Point(1383, 420)
-# Point(1483, 420)
+pos1 = 1050
+pos2 = 1155
+pos3 = 1260
+pos4 = 1365
+height = 390
+height_lower = 500
+hold_duration = 0
+
+continue_video_color_min = [254, 165, 45]
+continue_video_color_max = [254, 180, 55]
 
 
 async def click(x1, y1, duration):
@@ -30,58 +34,37 @@ async def release():
     win32api.mouse_event(win32con.MOUSEEVENTF_LEFTUP, 0, 0)
 
 
-async def side1(p1):
-    if p1[0] == 0 and p1[1] == 0:
-        await click(1222, 420, 0.001)
-    if 2 <= p1[1] <= 50:
-        # await hold(1222, 420)
-        await click(1222, 420, 0)
-    # if 155 <= p1[1] <= 167 and 245 <= p1[2] <= 254:
-    #     await release()
+async def press_note(colors, pos):
+    if continue_video_color_min[1] <= colors[1] <= continue_video_color_max[1] and continue_video_color_max[2] <= colors[2] <= continue_video_color_min[2]:
+        quit()
+
+    if colors[0] == 0 and colors[1] == 0:
+        await click(pos, height, hold_duration)
+    if 2 <= colors[1] <= 90:
+        await click(pos, height, hold_duration)
 
 
-async def side2(p2):
-    if p2[0] == 0 and p2[1] == 0:
-        await click(1338, 420, 0.001)
-    if 2 <= p2[1] <= 50:
-        # await hold(1338, 420)
-        await click(1338, 420, 0)
-    # if 155 <= p2[1] <= 167 and 245 <= p2[2] <= 254:
-    #     await release()
+async def press_note_lower(colors, pos):
+    if continue_video_color_min[1] <= colors[1] <= continue_video_color_max[1] and continue_video_color_max[2] <= colors[2] <= continue_video_color_min[2]:
+        quit()
 
-
-async def side3(p3):
-    if p3[0] == 0 and p3[1] == 0:
-        await click(1442, 420, 0.001)
-    if 2 <= p3[1] <= 50:
-        # await hold(1442, 420)
-        await click(1442, 420, 0)
-    # if 155 <= p3[1] <= 167 and 245 <= p3[2] <= 254:
-    #     await release()
-
-
-async def side4(p4):
-    if p4[0] == 0 and p4[1] == 0:
-        await click(1554, 420, 0.001)
-    if 2 <= p4[1] <= 50:
-        # await hold(1554, 420)
-        await click(1554, 420, 0)
-    # if 155 <= p4[1] <= 167 and 245 <= p4[2] <= 254:
-    #     await release()
-    # print(f'{p3[0]}, {p3[1]}, {p3[2]}')
+    if colors[0] == 0 and colors[1] == 0:
+        await click(pos, height_lower, hold_duration)
+    if 2 <= colors[1] <= 20:
+        await click(pos, height_lower, hold_duration)
 
 
 async def run():
     await asyncio.sleep(2)
     while not keyboard.is_pressed('q'):
-        p1 = pyautogui.pixel(1222, 420)
-        p2 = pyautogui.pixel(1338, 420)
-        p3 = pyautogui.pixel(1442, 420)
-        p4 = pyautogui.pixel(1554, 420)
+        await press_note(pyautogui.pixel(pos1, height), pos1)
+        await press_note(pyautogui.pixel(pos2, height), pos2)
+        await press_note(pyautogui.pixel(pos3, height), pos3)
+        await press_note(pyautogui.pixel(pos4, height), pos4)
 
-        await side1(p1)
-        await side2(p2)
-        await side3(p3)
-        await side4(p4)
+        await press_note_lower(pyautogui.pixel(pos1, height_lower), pos1)
+        await press_note_lower(pyautogui.pixel(pos2, height_lower), pos2)
+        await press_note_lower(pyautogui.pixel(pos3, height_lower), pos3)
+        await press_note_lower(pyautogui.pixel(pos4, height_lower), pos4)
 
 asyncio.run(run())
