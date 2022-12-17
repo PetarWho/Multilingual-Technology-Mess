@@ -1,0 +1,592 @@
+
+hover-aliceblue:hover{
+color: aliceblue
+}
+
+hover-antiquewhite:hover{
+color: antiquewhite
+}
+
+hover-aqua:hover{
+color: aqua
+}
+
+hover-aquamarine:hover{
+color: aquamarine
+}
+
+hover-azure:hover{
+color: azure
+}
+
+hover-beige:hover{
+color: beige
+}
+
+hover-bisque:hover{
+color: bisque
+}
+
+hover-black:hover{
+color: black
+}
+
+hover-blanchedalmond:hover{
+color: blanchedalmond
+}
+
+hover-blue:hover{
+color: blue
+}
+
+hover-blueviolet:hover{
+color: blueviolet
+}
+
+hover-brown:hover{
+color: brown
+}
+
+hover-burlywood:hover{
+color: burlywood
+}
+
+hover-cadetblue:hover{
+color: cadetblue
+}
+
+hover-chartreuse:hover{
+color: chartreuse
+}
+
+hover-chocolate:hover{
+color: chocolate
+}
+
+hover-coral:hover{
+color: coral
+}
+
+hover-cornflowerblue:hover{
+color: cornflowerblue
+}
+
+hover-cornsilk:hover{
+color: cornsilk
+}
+
+hover-crimson:hover{
+color: crimson
+}
+
+hover-cyan:hover{
+color: cyan
+}
+
+hover-darkblue:hover{
+color: darkblue
+}
+
+hover-darkcyan:hover{
+color: darkcyan
+}
+
+hover-darkgoldenrod:hover{
+color: darkgoldenrod
+}
+
+hover-darkgray:hover{
+color: darkgray
+}
+
+hover-darkgreen:hover{
+color: darkgreen
+}
+
+hover-darkgrey:hover{
+color: darkgrey
+}
+
+hover-darkkhaki:hover{
+color: darkkhaki
+}
+
+hover-darkmagenta:hover{
+color: darkmagenta
+}
+
+hover-darkolivegreen:hover{
+color: darkolivegreen
+}
+
+hover-darkorange:hover{
+color: darkorange
+}
+
+hover-darkorchid:hover{
+color: darkorchid
+}
+
+hover-darkred:hover{
+color: darkred
+}
+
+hover-darksalmon:hover{
+color: darksalmon
+}
+
+hover-darkseagreen:hover{
+color: darkseagreen
+}
+
+hover-darkslateblue:hover{
+color: darkslateblue
+}
+
+hover-darkslategray:hover{
+color: darkslategray
+}
+
+hover-darkslategrey:hover{
+color: darkslategrey
+}
+
+hover-darkturquoise:hover{
+color: darkturquoise
+}
+
+hover-darkviolet:hover{
+color: darkviolet
+}
+
+hover-deeppink:hover{
+color: deeppink
+}
+
+hover-deepskyblue:hover{
+color: deepskyblue
+}
+
+hover-dimgray:hover{
+color: dimgray
+}
+
+hover-dimgrey:hover{
+color: dimgrey
+}
+
+hover-dodgerblue:hover{
+color: dodgerblue
+}
+
+hover-firebrick:hover{
+color: firebrick
+}
+
+hover-floralwhite:hover{
+color: floralwhite
+}
+
+hover-forestgreen:hover{
+color: forestgreen
+}
+
+hover-fuchsia:hover{
+color: fuchsia
+}
+
+hover-gainsboro:hover{
+color: gainsboro
+}
+
+hover-ghostwhite:hover{
+color: ghostwhite
+}
+
+hover-goldenrod:hover{
+color: goldenrod
+}
+
+hover-gold:hover{
+color: gold
+}
+
+hover-gray:hover{
+color: gray
+}
+
+hover-green:hover{
+color: green
+}
+
+hover-greenyellow:hover{
+color: greenyellow
+}
+
+hover-grey:hover{
+color: grey
+}
+
+hover-honeydew:hover{
+color: honeydew
+}
+
+hover-hotpink:hover{
+color: hotpink
+}
+
+hover-indianred:hover{
+color: indianred
+}
+
+hover-indigo:hover{
+color: indigo
+}
+
+hover-ivory:hover{
+color: ivory
+}
+
+hover-khaki:hover{
+color: khaki
+}
+
+hover-lavenderblush:hover{
+color: lavenderblush
+}
+
+hover-lavender:hover{
+color: lavender
+}
+
+hover-lawngreen:hover{
+color: lawngreen
+}
+
+hover-lemonchiffon:hover{
+color: lemonchiffon
+}
+
+hover-lightblue:hover{
+color: lightblue
+}
+
+hover-lightcoral:hover{
+color: lightcoral
+}
+
+hover-lightcyan:hover{
+color: lightcyan
+}
+
+hover-lightgoldenrodyellow:hover{
+color: lightgoldenrodyellow
+}
+
+hover-lightgray:hover{
+color: lightgray
+}
+
+hover-lightgreen:hover{
+color: lightgreen
+}
+
+hover-lightgrey:hover{
+color: lightgrey
+}
+
+hover-lightpink:hover{
+color: lightpink
+}
+
+hover-lightsalmon:hover{
+color: lightsalmon
+}
+
+hover-lightseagreen:hover{
+color: lightseagreen
+}
+
+hover-lightskyblue:hover{
+color: lightskyblue
+}
+
+hover-lightslategray:hover{
+color: lightslategray
+}
+
+hover-lightslategrey:hover{
+color: lightslategrey
+}
+
+hover-lightsteelblue:hover{
+color: lightsteelblue
+}
+
+hover-lightyellow:hover{
+color: lightyellow
+}
+
+hover-lime:hover{
+color: lime
+}
+
+hover-limegreen:hover{
+color: limegreen
+}
+
+hover-linen:hover{
+color: linen
+}
+
+hover-magenta:hover{
+color: magenta
+}
+
+hover-maroon:hover{
+color: maroon
+}
+
+hover-mediumaquamarine:hover{
+color: mediumaquamarine
+}
+
+hover-mediumblue:hover{
+color: mediumblue
+}
+
+hover-mediumorchid:hover{
+color: mediumorchid
+}
+
+hover-mediumpurple:hover{
+color: mediumpurple
+}
+
+hover-mediumseagreen:hover{
+color: mediumseagreen
+}
+
+hover-mediumslateblue:hover{
+color: mediumslateblue
+}
+
+hover-mediumspringgreen:hover{
+color: mediumspringgreen
+}
+
+hover-mediumturquoise:hover{
+color: mediumturquoise
+}
+
+hover-mediumvioletred:hover{
+color: mediumvioletred
+}
+
+hover-midnightblue:hover{
+color: midnightblue
+}
+
+hover-mintcream:hover{
+color: mintcream
+}
+
+hover-mistyrose:hover{
+color: mistyrose
+}
+
+hover-moccasin:hover{
+color: moccasin
+}
+
+hover-navajowhite:hover{
+color: navajowhite
+}
+
+hover-navy:hover{
+color: navy
+}
+
+hover-oldlace:hover{
+color: oldlace
+}
+
+hover-olive:hover{
+color: olive
+}
+
+hover-olivedrab:hover{
+color: olivedrab
+}
+
+hover-orange:hover{
+color: orange
+}
+
+hover-orangered:hover{
+color: orangered
+}
+
+hover-orchid:hover{
+color: orchid
+}
+
+hover-palegoldenrod:hover{
+color: palegoldenrod
+}
+
+hover-palegreen:hover{
+color: palegreen
+}
+
+hover-paleturquoise:hover{
+color: paleturquoise
+}
+
+hover-palevioletred:hover{
+color: palevioletred
+}
+
+hover-papayawhip:hover{
+color: papayawhip
+}
+
+hover-peachpuff:hover{
+color: peachpuff
+}
+
+hover-peru:hover{
+color: peru
+}
+
+hover-pink:hover{
+color: pink
+}
+
+hover-plum:hover{
+color: plum
+}
+
+hover-powderblue:hover{
+color: powderblue
+}
+
+hover-purple:hover{
+color: purple
+}
+
+hover-rebeccapurple:hover{
+color: rebeccapurple
+}
+
+hover-red:hover{
+color: red
+}
+
+hover-rosybrown:hover{
+color: rosybrown
+}
+
+hover-royalblue:hover{
+color: royalblue
+}
+
+hover-saddlebrown:hover{
+color: saddlebrown
+}
+
+hover-salmon:hover{
+color: salmon
+}
+
+hover-sandybrown:hover{
+color: sandybrown
+}
+
+hover-seagreen:hover{
+color: seagreen
+}
+
+hover-seashell:hover{
+color: seashell
+}
+
+hover-sienna:hover{
+color: sienna
+}
+
+hover-silver:hover{
+color: silver
+}
+
+hover-skyblue:hover{
+color: skyblue
+}
+
+hover-slateblue:hover{
+color: slateblue
+}
+
+hover-slategray:hover{
+color: slategray
+}
+
+hover-slategrey:hover{
+color: slategrey
+}
+
+hover-snow:hover{
+color: snow
+}
+
+hover-springgreen:hover{
+color: springgreen
+}
+
+hover-steelblue:hover{
+color: steelblue
+}
+
+hover-tan:hover{
+color: tan
+}
+
+hover-teal:hover{
+color: teal
+}
+
+hover-thistle:hover{
+color: thistle
+}
+
+hover-tomato:hover{
+color: tomato
+}
+
+hover-turquoise:hover{
+color: turquoise
+}
+
+hover-violet:hover{
+color: violet
+}
+
+hover-wheat:hover{
+color: wheat
+}
+
+hover-white:hover{
+color: white
+}
+
+hover-whitesmoke:hover{
+color: whitesmoke
+}
+
+hover-yellow:hover{
+color: yellow
+}
+
+hover-yellowgreen:hover{
+color: yellowgreen
+}

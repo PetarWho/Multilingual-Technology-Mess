@@ -1,0 +1,592 @@
+
+bg-aliceblue{
+color: aliceblue
+}
+
+bg-antiquewhite{
+color: antiquewhite
+}
+
+bg-aqua{
+color: aqua
+}
+
+bg-aquamarine{
+color: aquamarine
+}
+
+bg-azure{
+color: azure
+}
+
+bg-beige{
+color: beige
+}
+
+bg-bisque{
+color: bisque
+}
+
+bg-black{
+color: black
+}
+
+bg-blanchedalmond{
+color: blanchedalmond
+}
+
+bg-blue{
+color: blue
+}
+
+bg-blueviolet{
+color: blueviolet
+}
+
+bg-brown{
+color: brown
+}
+
+bg-burlywood{
+color: burlywood
+}
+
+bg-cadetblue{
+color: cadetblue
+}
+
+bg-chartreuse{
+color: chartreuse
+}
+
+bg-chocolate{
+color: chocolate
+}
+
+bg-coral{
+color: coral
+}
+
+bg-cornflowerblue{
+color: cornflowerblue
+}
+
+bg-cornsilk{
+color: cornsilk
+}
+
+bg-crimson{
+color: crimson
+}
+
+bg-cyan{
+color: cyan
+}
+
+bg-darkblue{
+color: darkblue
+}
+
+bg-darkcyan{
+color: darkcyan
+}
+
+bg-darkgoldenrod{
+color: darkgoldenrod
+}
+
+bg-darkgray{
+color: darkgray
+}
+
+bg-darkgreen{
+color: darkgreen
+}
+
+bg-darkgrey{
+color: darkgrey
+}
+
+bg-darkkhaki{
+color: darkkhaki
+}
+
+bg-darkmagenta{
+color: darkmagenta
+}
+
+bg-darkolivegreen{
+color: darkolivegreen
+}
+
+bg-darkorange{
+color: darkorange
+}
+
+bg-darkorchid{
+color: darkorchid
+}
+
+bg-darkred{
+color: darkred
+}
+
+bg-darksalmon{
+color: darksalmon
+}
+
+bg-darkseagreen{
+color: darkseagreen
+}
+
+bg-darkslateblue{
+color: darkslateblue
+}
+
+bg-darkslategray{
+color: darkslategray
+}
+
+bg-darkslategrey{
+color: darkslategrey
+}
+
+bg-darkturquoise{
+color: darkturquoise
+}
+
+bg-darkviolet{
+color: darkviolet
+}
+
+bg-deeppink{
+color: deeppink
+}
+
+bg-deepskyblue{
+color: deepskyblue
+}
+
+bg-dimgray{
+color: dimgray
+}
+
+bg-dimgrey{
+color: dimgrey
+}
+
+bg-dodgerblue{
+color: dodgerblue
+}
+
+bg-firebrick{
+color: firebrick
+}
+
+bg-floralwhite{
+color: floralwhite
+}
+
+bg-forestgreen{
+color: forestgreen
+}
+
+bg-fuchsia{
+color: fuchsia
+}
+
+bg-gainsboro{
+color: gainsboro
+}
+
+bg-ghostwhite{
+color: ghostwhite
+}
+
+bg-goldenrod{
+color: goldenrod
+}
+
+bg-gold{
+color: gold
+}
+
+bg-gray{
+color: gray
+}
+
+bg-green{
+color: green
+}
+
+bg-greenyellow{
+color: greenyellow
+}
+
+bg-grey{
+color: grey
+}
+
+bg-honeydew{
+color: honeydew
+}
+
+bg-hotpink{
+color: hotpink
+}
+
+bg-indianred{
+color: indianred
+}
+
+bg-indigo{
+color: indigo
+}
+
+bg-ivory{
+color: ivory
+}
+
+bg-khaki{
+color: khaki
+}
+
+bg-lavenderblush{
+color: lavenderblush
+}
+
+bg-lavender{
+color: lavender
+}
+
+bg-lawngreen{
+color: lawngreen
+}
+
+bg-lemonchiffon{
+color: lemonchiffon
+}
+
+bg-lightblue{
+color: lightblue
+}
+
+bg-lightcoral{
+color: lightcoral
+}
+
+bg-lightcyan{
+color: lightcyan
+}
+
+bg-lightgoldenrodyellow{
+color: lightgoldenrodyellow
+}
+
+bg-lightgray{
+color: lightgray
+}
+
+bg-lightgreen{
+color: lightgreen
+}
+
+bg-lightgrey{
+color: lightgrey
+}
+
+bg-lightpink{
+color: lightpink
+}
+
+bg-lightsalmon{
+color: lightsalmon
+}
+
+bg-lightseagreen{
+color: lightseagreen
+}
+
+bg-lightskyblue{
+color: lightskyblue
+}
+
+bg-lightslategray{
+color: lightslategray
+}
+
+bg-lightslategrey{
+color: lightslategrey
+}
+
+bg-lightsteelblue{
+color: lightsteelblue
+}
+
+bg-lightyellow{
+color: lightyellow
+}
+
+bg-lime{
+color: lime
+}
+
+bg-limegreen{
+color: limegreen
+}
+
+bg-linen{
+color: linen
+}
+
+bg-magenta{
+color: magenta
+}
+
+bg-maroon{
+color: maroon
+}
+
+bg-mediumaquamarine{
+color: mediumaquamarine
+}
+
+bg-mediumblue{
+color: mediumblue
+}
+
+bg-mediumorchid{
+color: mediumorchid
+}
+
+bg-mediumpurple{
+color: mediumpurple
+}
+
+bg-mediumseagreen{
+color: mediumseagreen
+}
+
+bg-mediumslateblue{
+color: mediumslateblue
+}
+
+bg-mediumspringgreen{
+color: mediumspringgreen
+}
+
+bg-mediumturquoise{
+color: mediumturquoise
+}
+
+bg-mediumvioletred{
+color: mediumvioletred
+}
+
+bg-midnightblue{
+color: midnightblue
+}
+
+bg-mintcream{
+color: mintcream
+}
+
+bg-mistyrose{
+color: mistyrose
+}
+
+bg-moccasin{
+color: moccasin
+}
+
+bg-navajowhite{
+color: navajowhite
+}
+
+bg-navy{
+color: navy
+}
+
+bg-oldlace{
+color: oldlace
+}
+
+bg-olive{
+color: olive
+}
+
+bg-olivedrab{
+color: olivedrab
+}
+
+bg-orange{
+color: orange
+}
+
+bg-orangered{
+color: orangered
+}
+
+bg-orchid{
+color: orchid
+}
+
+bg-palegoldenrod{
+color: palegoldenrod
+}
+
+bg-palegreen{
+color: palegreen
+}
+
+bg-paleturquoise{
+color: paleturquoise
+}
+
+bg-palevioletred{
+color: palevioletred
+}
+
+bg-papayawhip{
+color: papayawhip
+}
+
+bg-peachpuff{
+color: peachpuff
+}
+
+bg-peru{
+color: peru
+}
+
+bg-pink{
+color: pink
+}
+
+bg-plum{
+color: plum
+}
+
+bg-powderblue{
+color: powderblue
+}
+
+bg-purple{
+color: purple
+}
+
+bg-rebeccapurple{
+color: rebeccapurple
+}
+
+bg-red{
+color: red
+}
+
+bg-rosybrown{
+color: rosybrown
+}
+
+bg-royalblue{
+color: royalblue
+}
+
+bg-saddlebrown{
+color: saddlebrown
+}
+
+bg-salmon{
+color: salmon
+}
+
+bg-sandybrown{
+color: sandybrown
+}
+
+bg-seagreen{
+color: seagreen
+}
+
+bg-seashell{
+color: seashell
+}
+
+bg-sienna{
+color: sienna
+}
+
+bg-silver{
+color: silver
+}
+
+bg-skyblue{
+color: skyblue
+}
+
+bg-slateblue{
+color: slateblue
+}
+
+bg-slategray{
+color: slategray
+}
+
+bg-slategrey{
+color: slategrey
+}
+
+bg-snow{
+color: snow
+}
+
+bg-springgreen{
+color: springgreen
+}
+
+bg-steelblue{
+color: steelblue
+}
+
+bg-tan{
+color: tan
+}
+
+bg-teal{
+color: teal
+}
+
+bg-thistle{
+color: thistle
+}
+
+bg-tomato{
+color: tomato
+}
+
+bg-turquoise{
+color: turquoise
+}
+
+bg-violet{
+color: violet
+}
+
+bg-wheat{
+color: wheat
+}
+
+bg-white{
+color: white
+}
+
+bg-whitesmoke{
+color: whitesmoke
+}
+
+bg-yellow{
+color: yellow
+}
+
+bg-yellowgreen{
+color: yellowgreen
+}
