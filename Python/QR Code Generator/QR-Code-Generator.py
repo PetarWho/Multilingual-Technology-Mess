@@ -3,7 +3,7 @@ import png
 from pyqrcode import QRCode
 
 # String which represents the QR Code
-test = "https://bit.ly/3LP9wm6"
+test = "https://instagram.com/adrenalyne"
 
 s = input()
 
