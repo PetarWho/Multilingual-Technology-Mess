@@ -27,7 +27,7 @@ class AutoClicker:
         self.mouse_button = tk.StringVar(value="left")
 
         # Create widgets
-        tk.Label(self.root, text="AutoClicker", font=("Montserrat", 24)).pack(pady=10)
+        tk.Label(self.root, text="Random Auto Clicker", font=("Montserrat", 24)).pack(pady=10)
 
         delay_frame = tk.Frame(self.root)
         delay_frame.pack()
@@ -63,7 +63,7 @@ class AutoClicker:
         if key == keyboard.Key.f10:
             if not self.auto_click_thread.is_alive():
                 self.start_time = time.time()
-                self.status_label.config(text="AutoClicker running...", font=("Montserrat", 14,  "bold"))
+                self.status_label.config(text="RAC running...", font=("Montserrat", 14,  "bold"))
                 self.auto_click_thread = threading.Thread(target=self.auto_click)
                 self.auto_click_thread.daemon = True
                 self.auto_click_thread.start()
@@ -75,7 +75,7 @@ class AutoClicker:
                 seconds = int(elapsed_time - hours * 3600 - minutes * 60)
                 time_str = f"Ran for: {hours:02d}h:{minutes:02d}m:{seconds:02d}s"
                 self.timer_label.config(text=time_str)
-                self.status_label.config(text="AutoClicker stopped.", font=("Montserrat", 14, "bold"))
+                self.status_label.config(text="RAC stopped.", font=("Montserrat", 14, "bold"))
 
     def auto_click(self):
         with mouse.Controller() as controller:
