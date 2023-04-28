@@ -1,4 +1,3 @@
-from pyautogui import *
 import pyautogui
 import keyboard
 

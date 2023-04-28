@@ -353,3 +353,4 @@ Python/dist/
 Python/build/
 Python/venv/
 Python/.idea/
+/Python/Tools/*.txt
