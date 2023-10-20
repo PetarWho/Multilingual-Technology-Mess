@@ -1,9 +1,15 @@
 import pyautogui
 import keyboard
 
+pressed = False
 while True:
-    if keyboard.is_pressed('w'):
-        x, y = pyautogui.position()
-        r, g, b = pyautogui.pixel(x, y)
+    try:
+        if keyboard.read_key() == 'w':
+            x, y = pyautogui.position()
+            r, g, b = pyautogui.pixel(x, y)
 
-        print(f'{x}, {y} - {r}, {g}, {b}')
+            if pressed:
+                print(f'Pos: {x}, {y} - RGB: {r}, {g}, {b}')
+            pressed = not pressed
+    except KeyboardInterrupt:
+        pass
