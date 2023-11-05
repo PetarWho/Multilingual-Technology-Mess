@@ -29,7 +29,7 @@ def bet():
 
 def set_multiplier(multiplier):
     pyautogui.click(686, 969)
-    time.sleep(0.2)
+    time.sleep(0.3)
     keyboard.write(str(multiplier))
 
 
@@ -55,6 +55,10 @@ def target_found(x1, y1, x2, y2):
     return pyautogui.locateOnScreen('target.png', region=(x1, y1, x2, y2), grayscale=True, confidence=0.99)
 
 
+def place_bet_found(x1, y1, x2, y2):
+    return pyautogui.locateOnScreen('place_bet.png', region=(x1, y1, x2, y2), grayscale=True, confidence=0.99)
+
+
 def wait_for_next():
     if not target_found(642, 236, 50, 28):
         global BET_PLACED
@@ -66,23 +70,36 @@ def wait_for_next():
         FREEZE = True
 
 
+def wager_play():
+    pass
+
+
 def main():
     time.sleep(2)
     while True:
-        global BET_PLACED
-        if target_found(642, 236, 50, 28):
-            if BET_PLACED:
-                wait_for_next()
-            else:
-                if FREEZE:
-                    freeze(120)
-                else:
-                    time.sleep(0.2)
-                    sell()
-                    set_multiplier(1.01)
-                    bet()
+        if place_bet_found(840, 850, 235, 20):
+            time.sleep(3)
+            bet()
+            time.sleep(0.5)
+            set_multiplier(1.01)
+            time.sleep(9.5)
         else:
-            BET_PLACED = False
+            time.sleep(1)
+
+        # global BET_PLACED
+        # if target_found(642, 236, 50, 28):
+        #     if BET_PLACED:
+        #         wait_for_next()
+        #     else:
+        #         if FREEZE:
+        #             freeze(120)
+        #         else:
+        #             time.sleep(0.2)
+        #             #sell()
+        #             set_multiplier(1.01)
+        #             bet()
+        # else:
+        #     BET_PLACED = False
 
 
 if __name__ == "__main__":
