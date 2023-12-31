@@ -3,7 +3,7 @@ import pyautogui
 import time
 
 start_time = 0
-counter = 0
+rebirth_counter = 0
 
 try:
     challenge_btn = (1342, 895)
@@ -31,7 +31,7 @@ try:
         click(speed_up_btn[0], speed_up_btn[1], 0.1)
         click(speed_up_btn[0], speed_up_btn[1], 40)
         click(exit_btn[0], exit_btn[1], 2.1)
-        counter += 1
+        rebirth_counter += 1
 
 except KeyboardInterrupt:
     end_time = time.time()
@@ -39,4 +39,4 @@ except KeyboardInterrupt:
     hours, remainder = divmod(elapsed_time, 3600)
     minutes, seconds = divmod(remainder, 60)
     print(f"Ran for {int(hours)} hours, {int(minutes)} minutes, {int(seconds)} seconds.")
-    print(f"Warden slain {counter} times.")
+    print(f"Warden slain {rebirth_counter} times.")
