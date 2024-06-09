@@ -49,12 +49,12 @@ class Question:
 
 def normalize_answer(answer: str) -> str:
     # Remove ordering symbols and brackets at the beginning of the answer
-    return re.sub(r'^[).-]|^\w+[)}\]\/.-]+| +', '', answer.lower().strip(), flags=re.UNICODE)
+    return re.sub(r'^[).-]|^\w+[)}\]\/.]+| +', '', answer.lower().strip(), flags=re.UNICODE)
 
 
 def normalize_answer_display(answer: str) -> str:
     # Remove ordering symbols and brackets at the beginning of the answer
-    return re.sub(r'^[).-]|^\w+[)}\]\/.-]+', '', answer.strip(), flags=re.UNICODE)
+    return re.sub(r'^[).-]|^\w+[)}\]\/.]+', '', answer.strip(), flags=re.UNICODE)
 
 
 def normalize_question(text: str) -> str:
