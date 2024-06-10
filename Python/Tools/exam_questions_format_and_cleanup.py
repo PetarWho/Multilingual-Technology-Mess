@@ -59,7 +59,7 @@ def normalize_answer_display(answer: str) -> str:
 
 def normalize_question(text: str) -> str:
     # Convert to lowercase, remove all non-alphanumeric Unicode characters, and strip whitespace
-    return re.sub(r'[\W]| ', '', text.lower().strip(), flags=re.UNICODE)
+    return re.sub(r'[^\w^+._*]|\s', '', text.lower().strip(), flags=re.UNICODE)
 
 
 def parse_questions(file_content):
