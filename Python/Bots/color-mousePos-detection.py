@@ -12,4 +12,4 @@ while True:
                 print(f'Pos: {x}, {y} - RGB: {r}, {g}, {b}')
             pressed = not pressed
     except KeyboardInterrupt:
-        pass
+        break
